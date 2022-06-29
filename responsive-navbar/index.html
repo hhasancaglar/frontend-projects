@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Responsive Navbar</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <i class="bx bx-menu sidebar-open"></i>
+        <span class="logo nav-logo">
+          <a href="#">Website</a>
+        </span>
+
+        <div class="menu">
+          <div class="logo-toggle">
+            <span class="logo">
+              <a href="#">Website</a>
+            </span>
+            <i class="bx bx-x sidebar-close"></i>
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkımda</a></li>
+            <li><a href="#">Portfolyo</a></li>
+            <li><a href="#">Hizmetler</a></li>
+            <li><a href="#">İletişim</a></li>
+          </ul>
+        </div>
+
+        <div class="search-box">
+          <div class="search-item">
+            <div class="search-toggle">
+              <i class="bx bx-x cancel"></i>
+              <i class="bx bx-search search"></i>
+            </div>
+
+            <div class="search-field">
+              <input type="text" placeholder="Search..." />
+              <i class="bx bx-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script src="index.js"></script>
+  </body>
+</html>
