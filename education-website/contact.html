@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- For Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Education Website</title>
+  </head>
+  <body>
+    <!-- Menu and Header -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bx bx-x close-icon" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bx bx-menu menu-icon" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-- Contact Us Content -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385398.58980347536!2d28.73199289583766!3d41.00498228313809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1656706904817!5m2!1str!2str"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="bx bx-home"></i>
+            <span>
+              <h5>XXX Street, XXX Building</h5>
+              <p>İstanbul, TÜRKİYE</p>
+            </span>
+          </div>
+          <div>
+            <i class="bx bx-phone-call"></i>
+            <span>
+              <h5>+90 555 555 55 55</h5>
+              <p>Monday - Friday, 9AM - 5PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="bx bx-envelope-open"></i>
+            <span>
+              <h5>info@website.com</h5>
+              <p>Email us your question</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form>
+            <input type="text" placeholder="Enter your name..." required />
+            <input
+              type="email"
+              placeholder="Enter your email address..."
+              required
+            />
+            <input type="text" placeholder="Enter your subject..." required />
+            <textarea
+              rows="8"
+              placeholder="Enter your message..."
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi enim
+        quibusdam minus fugit, eum beatae quis iste soluta expedita omnis eaque
+        <br />
+        tenetur vero consectetur ea magni nulla suscipit odit ad.
+      </p>
+
+      <div class="icons">
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-instagram"></i>
+        <i class="bx bxl-linkedin"></i>
+      </div>
+      <p>&copy; 2022 - All rights reserved.</p>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
