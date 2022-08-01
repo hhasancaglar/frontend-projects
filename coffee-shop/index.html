@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Swipper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Coffee Shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container flex">
+        <a href="#" class="logo-content flex">
+          <i class="bx bx-coffee logo-icon"></i>
+          <span class="logo-text">CoffeeShop</span>
+        </a>
+        <div class="menu-content">
+          <ul class="menu-list flex">
+            <li><a href="#home" class="nav-link active-navlink">home</a></li>
+            <li><a href="#home" class="nav-link">about</a></li>
+            <li><a href="#home" class="nav-link">menu</a></li>
+            <li><a href="#home" class="nav-link">review</a></li>
+          </ul>
+
+          <div class="media-icons flex">
+            <a href="https://www.facebook.com/"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/?hl=tr"
+              ><i class="bx bxl-instagram-alt"></i
+            ></a>
+            <a href="https://twitter.com/home"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com/feed/"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.youtube.com/"
+              ><i class="bx bxl-youtube"></i
+            ></a>
+          </div>
+
+          <i class="bx bx-x navclose-btn"></i>
+        </div>
+        <div class="contact-content flex">
+          <i class="bx bx-phone phone-icon"></i>
+          <span class="phone-number">0222-222-2222</span>
+        </div>
+
+        <i class="bx bx-menu navopen-btn"></i>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home" id="home">
+        <div class="home-content">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/homeImg1.jpg" alt="" class="home-img" />
+                <div class="home-details">
+                  <div class="home-text">
+                    <h4 class="home-subtitle">We really like what we do.</h4>
+                    <h2 class="home-title">
+                      Coffee Beans with a <br />
+                      Perfect Aroma
+                    </h2>
+                  </div>
+                  <button class="button">Explore</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="images/homeImg2.jpg" alt="" class="home-img" />
+                <div class="home-details">
+                  <div class="home-text">
+                    <h4 class="home-subtitle">
+                      Enjoy the finest coffee drinks.
+                    </h4>
+                    <h2 class="home-title">
+                      Enjot Our Exclusive <br />
+                      Coffee and Cocktails
+                    </h2>
+                  </div>
+                  <button class="button">Explore</button>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="images/homeImg3.jpg" alt="" class="home-img" />
+                <div class="home-details">
+                  <div class="home-text">
+                    <h4 class="home-subtitle">Makign our coffee with lover.</h4>
+                    <h2 class="home-title">
+                      Alluring and Fragrant <br />
+                      Coffee Aroma
+                    </h2>
+                  </div>
+                  <button class="button">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-navbtn"></div>
+            <div class="swiper-button-prev swiper-navbtn"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Swipper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
